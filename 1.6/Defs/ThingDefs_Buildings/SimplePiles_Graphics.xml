@@ -13,7 +13,7 @@
       <li>SimplePile_Silver</li>
       <li>SimplePile_Medicine</li>
     </targetDefs>
-    <showContainedItems>false</showContainedItems>
+    <showContainedItems>true</showContainedItems>
     <useDominantContentColor>true</useDominantContentColor>
     <graphics>
       <li>

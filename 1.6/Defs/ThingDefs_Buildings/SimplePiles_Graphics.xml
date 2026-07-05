@@ -1,29 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <AdaptiveStorage.GraphicsDef>
-    <defName>SimplePiles_Graphics</defName>
-    <targetDefs>
-      <li>SimplePile_Wood</li>
-      <li>SimplePile_Steel</li>
-      <li>SimplePile_Plasteel</li>
-      <li>SimplePile_StoneBlocks</li>
-      <li>SimplePile_Components</li>
-      <li>SimplePile_AdvancedComponents</li>
-      <li>SimplePile_Gold</li>
-      <li>SimplePile_Silver</li>
-      <li>SimplePile_Medicine</li>
-    </targetDefs>
+    <defName>SimplePiles_Graphics_Wood</defName>
+    <targetDef>SimplePile_Wood</targetDef>
     <showContainedItems>true</showContainedItems>
     <useDominantContentColor>true</useDominantContentColor>
     <graphics>
-      <li>
-        <graphicData>
-          <texPath>SimplePiles/SmallLogPile/SmallPile</texPath>
-          <graphicClass>Graphic_Single</graphicClass>
-          <drawSize>(1.5,1.5)</drawSize>
-          <drawRotated>false</drawRotated>
-        </graphicData>
-      </li>
+      <li><graphicData><texPath>SimplePiles/SmallLogPile/SmallPile_wood</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1.5,1.5)</drawSize><drawRotated>false</drawRotated></graphicData></li>
+    </graphics>
+    <randomSelectionWeight>1</randomSelectionWeight>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>SimplePiles_Graphics_Steel</defName>
+    <targetDef>SimplePile_Steel</targetDef>
+    <showContainedItems>true</showContainedItems>
+    <useDominantContentColor>true</useDominantContentColor>
+    <graphics>
+      <li><graphicData><texPath>SimplePiles/SmallLogPile/SmallPile_steel</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1.5,1.5)</drawSize><drawRotated>false</drawRotated></graphicData></li>
+    </graphics>
+    <randomSelectionWeight>1</randomSelectionWeight>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>SimplePiles_Graphics_Plasteel</defName>
+    <targetDef>SimplePile_Plasteel</targetDef>
+    <showContainedItems>true</showContainedItems>
+    <useDominantContentColor>true</useDominantContentColor>
+    <graphics>
+      <li><graphicData><texPath>SimplePiles/SmallLogPile/SmallPile_plasteel</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1.5,1.5)</drawSize><drawRotated>false</drawRotated></graphicData></li>
+    </graphics>
+    <randomSelectionWeight>1</randomSelectionWeight>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>SimplePiles_Graphics_StoneBlocks</defName>
+    <targetDef>SimplePile_StoneBlocks</targetDef>
+    <showContainedItems>true</showContainedItems>
+    <useDominantContentColor>true</useDominantContentColor>
+    <graphics>
+      <li><graphicData><texPath>SimplePiles/SmallLogPile/SmallPile_stone</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1.5,1.5)</drawSize><drawRotated>false</drawRotated></graphicData></li>
+    </graphics>
+    <randomSelectionWeight>1</randomSelectionWeight>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>SimplePiles_Graphics_Components</defName>
+    <targetDef>SimplePile_Components</targetDef>
+    <showContainedItems>true</showContainedItems>
+    <useDominantContentColor>true</useDominantContentColor>
+    <graphics>
+      <li><graphicData><texPath>SimplePiles/SmallLogPile/SmallPile_component</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1.5,1.5)</drawSize><drawRotated>false</drawRotated></graphicData></li>
+    </graphics>
+    <randomSelectionWeight>1</randomSelectionWeight>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>SimplePiles_Graphics_AdvancedComponents</defName>
+    <targetDef>SimplePile_AdvancedComponents</targetDef>
+    <showContainedItems>true</showContainedItems>
+    <useDominantContentColor>true</useDominantContentColor>
+    <graphics>
+      <li><graphicData><texPath>SimplePiles/SmallLogPile/SmallPile_adv_component</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1.5,1.5)</drawSize><drawRotated>false</drawRotated></graphicData></li>
+    </graphics>
+    <randomSelectionWeight>1</randomSelectionWeight>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>SimplePiles_Graphics_Gold</defName>
+    <targetDef>SimplePile_Gold</targetDef>
+    <showContainedItems>true</showContainedItems>
+    <useDominantContentColor>true</useDominantContentColor>
+    <graphics>
+      <li><graphicData><texPath>SimplePiles/SmallLogPile/SmallPile_gold</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1.5,1.5)</drawSize><drawRotated>false</drawRotated></graphicData></li>
+    </graphics>
+    <randomSelectionWeight>1</randomSelectionWeight>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>SimplePiles_Graphics_Silver</defName>
+    <targetDef>SimplePile_Silver</targetDef>
+    <showContainedItems>true</showContainedItems>
+    <useDominantContentColor>true</useDominantContentColor>
+    <graphics>
+      <li><graphicData><texPath>SimplePiles/SmallLogPile/SmallPile_silver</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1.5,1.5)</drawSize><drawRotated>false</drawRotated></graphicData></li>
+    </graphics>
+    <randomSelectionWeight>1</randomSelectionWeight>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>SimplePiles_Graphics_Medicine</defName>
+    <targetDef>SimplePile_Medicine</targetDef>
+    <showContainedItems>true</showContainedItems>
+    <useDominantContentColor>true</useDominantContentColor>
+    <graphics>
+      <li><graphicData><texPath>SimplePiles/SmallLogPile/SmallPile_empty</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1.5,1.5)</drawSize><drawRotated>false</drawRotated></graphicData></li>
     </graphics>
     <randomSelectionWeight>1</randomSelectionWeight>
   </AdaptiveStorage.GraphicsDef>

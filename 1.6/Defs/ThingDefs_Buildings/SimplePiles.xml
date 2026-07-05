@@ -9,10 +9,10 @@
     <size>(1,1)</size>
     <rotatable>true</rotatable>
     <designatorDropdown>SimplePiles_ResourcePile</designatorDropdown>
-    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_UI</uiIconPath>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_empty</uiIconPath>
     <uiIconScale>1.5</uiIconScale>
     <graphicData>
-      <texPath>SimplePiles/SmallLogPile/SmallPile</texPath>
+      <texPath>SimplePiles/SmallLogPile/SmallPile_empty</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.5,1.5)</drawSize>
       <drawRotated>false</drawRotated>
@@ -51,6 +51,13 @@
     <defName>SimplePile_Wood</defName>
     <label>wood pile spot</label>
     <description>A one-stack pile spot for wood. Built from 1 wood.</description>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_wood</uiIconPath>
+    <graphicData>
+      <texPath>SimplePiles/SmallLogPile/SmallPile_wood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
     <building>
       <defaultStorageSettings>
         <priority>Important</priority>
@@ -74,6 +81,13 @@
     <defName>SimplePile_Steel</defName>
     <label>steel pile spot</label>
     <description>A one-stack pile spot for steel. Built from 1 wood.</description>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_steel</uiIconPath>
+    <graphicData>
+      <texPath>SimplePiles/SmallLogPile/SmallPile_steel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
     <building>
       <defaultStorageSettings>
         <priority>Important</priority>
@@ -97,6 +111,13 @@
     <defName>SimplePile_Plasteel</defName>
     <label>plasteel pile spot</label>
     <description>A one-stack pile spot for plasteel. Built from 1 wood.</description>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_plasteel</uiIconPath>
+    <graphicData>
+      <texPath>SimplePiles/SmallLogPile/SmallPile_plasteel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
     <building>
       <defaultStorageSettings>
         <priority>Important</priority>
@@ -120,6 +141,13 @@
     <defName>SimplePile_StoneBlocks</defName>
     <label>stone block pile spot</label>
     <description>A one-stack pile spot for any vanilla stone block type. Built from 1 wood.</description>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_stone</uiIconPath>
+    <graphicData>
+      <texPath>SimplePiles/SmallLogPile/SmallPile_stone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
     <building>
       <defaultStorageSettings>
         <priority>Important</priority>
@@ -143,6 +171,13 @@
     <defName>SimplePile_Components</defName>
     <label>component pile spot</label>
     <description>A one-stack pile spot for components. Built from 1 wood.</description>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_component</uiIconPath>
+    <graphicData>
+      <texPath>SimplePiles/SmallLogPile/SmallPile_component</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
     <building>
       <defaultStorageSettings>
         <priority>Important</priority>
@@ -166,6 +201,13 @@
     <defName>SimplePile_AdvancedComponents</defName>
     <label>advanced component pile spot</label>
     <description>A one-stack pile spot for advanced components. Built from 1 wood.</description>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_adv_component</uiIconPath>
+    <graphicData>
+      <texPath>SimplePiles/SmallLogPile/SmallPile_adv_component</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
     <building>
       <defaultStorageSettings>
         <priority>Important</priority>
@@ -189,6 +231,13 @@
     <defName>SimplePile_Gold</defName>
     <label>gold pile spot</label>
     <description>A one-stack pile spot for gold. Built from 1 wood.</description>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_gold</uiIconPath>
+    <graphicData>
+      <texPath>SimplePiles/SmallLogPile/SmallPile_gold</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
     <building>
       <defaultStorageSettings>
         <priority>Important</priority>
@@ -212,6 +261,13 @@
     <defName>SimplePile_Silver</defName>
     <label>silver pile spot</label>
     <description>A one-stack pile spot for silver. Built from 1 wood.</description>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_silver</uiIconPath>
+    <graphicData>
+      <texPath>SimplePiles/SmallLogPile/SmallPile_silver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
     <building>
       <defaultStorageSettings>
         <priority>Important</priority>
@@ -235,6 +291,13 @@
     <defName>SimplePile_Medicine</defName>
     <label>medicine pile spot</label>
     <description>A one-stack pile spot for medicine. Built from 1 wood.</description>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallPile_empty</uiIconPath>
+    <graphicData>
+      <texPath>SimplePiles/SmallLogPile/SmallPile_empty</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
     <building>
       <defaultStorageSettings>
         <priority>Important</priority>

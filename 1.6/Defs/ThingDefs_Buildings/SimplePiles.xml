@@ -10,7 +10,7 @@
     <rotatable>true</rotatable>
     <designatorDropdown>SimplePiles_ResourcePile</designatorDropdown>
     <uiIconPath>SimplePiles/SmallLogPile/SmallPile_empty</uiIconPath>
-    <uiIconScale>1.5</uiIconScale>
+    <uiIconScale>1.125</uiIconScale>
     <graphicData>
       <texPath>SimplePiles/SmallLogPile/SmallPile_empty</texPath>
       <graphicClass>Graphic_Single</graphicClass>

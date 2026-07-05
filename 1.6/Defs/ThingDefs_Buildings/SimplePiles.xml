@@ -55,9 +55,6 @@
     <surfaceType>Item</surfaceType>
     <canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>BuildingsFurniture</li>
-    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="SimplePileBase">

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Simple Piles</name>
+  <author>yuyaryshev</author>
+  <packageId>yuyaryshev.simplepiles</packageId>
+  <url>https://github.com/yuyaryshev/rimworld_simple_piles</url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Small one-stack resource pile spots. Each spot is built from a tiny amount of wood and accepts only one configured resource type.
+
+Uses SmallLogPile texture references copied from Adaptive Primitive Storage / Primitive Storage.</description>
+</ModMetaData>

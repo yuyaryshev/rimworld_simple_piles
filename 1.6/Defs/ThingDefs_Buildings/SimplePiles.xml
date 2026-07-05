@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="SimplePileBase" ParentName="FurnitureBase" Abstract="True">
+    <thingClass>Building_Storage</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.2</fillPercent>
+    <pathCost>15</pathCost>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <designationCategory>Furniture</designationCategory>
+    <uiIconPath>SimplePiles/SmallLogPile/SmallLogPile_UI</uiIconPath>
+    <uiIconScale>1.5</uiIconScale>
+    <graphicData>
+      <texPath>SimplePiles/SmallLogPile/SmallLogPile_0</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <drawRotated>false</drawRotated>
+      <drawOffsetNorth>0,0,0.125</drawOffsetNorth>
+      <drawOffsetSouth>0,0,-0.125</drawOffsetSouth>
+      <drawOffsetEast>0,0.125,0</drawOffsetEast>
+      <drawOffsetWest>0,-0.125,0</drawOffsetWest>
+    </graphicData>
+    <costList>
+      <WoodLog>1</WoodLog>
+    </costList>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>1</WorkToBuild>
+      <Beauty>0</Beauty>
+      <Flammability>1.0</Flammability>
+      <Mass>1</Mass>
+    </statBases>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <maxItemsInCell>1</maxItemsInCell>
+      <blueprintClass>Blueprint_Storage</blueprintClass>
+      <relatedBuildCommands>
+        <li>SimplePile_Wood</li>
+        <li>SimplePile_Steel</li>
+        <li>SimplePile_Plasteel</li>
+        <li>SimplePile_StoneBlocks</li>
+        <li>SimplePile_Components</li>
+        <li>SimplePile_AdvancedComponents</li>
+        <li>SimplePile_Gold</li>
+        <li>SimplePile_Silver</li>
+        <li>SimplePile_Medicine</li>
+      </relatedBuildCommands>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="SimplePileBase">
+    <defName>SimplePile_Wood</defName>
+    <label>wood pile spot</label>
+    <description>A one-stack pile spot for wood. Built from 1 wood.</description>
+    <building>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="SimplePileBase">
+    <defName>SimplePile_Steel</defName>
+    <label>steel pile spot</label>
+    <description>A one-stack pile spot for steel. Built from 1 wood.</description>
+    <building>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="SimplePileBase">
+    <defName>SimplePile_Plasteel</defName>
+    <label>plasteel pile spot</label>
+    <description>A one-stack pile spot for plasteel. Built from 1 wood.</description>
+    <building>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="SimplePileBase">
+    <defName>SimplePile_StoneBlocks</defName>
+    <label>stone block pile spot</label>
+    <description>A one-stack pile spot for any vanilla stone block type. Built from 1 wood.</description>
+    <building>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>StoneBlocks</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="SimplePileBase">
+    <defName>SimplePile_Components</defName>
+    <label>component pile spot</label>
+    <description>A one-stack pile spot for components. Built from 1 wood.</description>
+    <building>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="SimplePileBase">
+    <defName>SimplePile_AdvancedComponents</defName>
+    <label>advanced component pile spot</label>
+    <description>A one-stack pile spot for advanced components. Built from 1 wood.</description>
+    <building>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="SimplePileBase">
+    <defName>SimplePile_Gold</defName>
+    <label>gold pile spot</label>
+    <description>A one-stack pile spot for gold. Built from 1 wood.</description>
+    <building>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="SimplePileBase">
+    <defName>SimplePile_Silver</defName>
+    <label>silver pile spot</label>
+    <description>A one-stack pile spot for silver. Built from 1 wood.</description>
+    <building>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="SimplePileBase">
+    <defName>SimplePile_Medicine</defName>
+    <label>medicine pile spot</label>
+    <description>A one-stack pile spot for medicine. Built from 1 wood.</description>
+    <building>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+  </ThingDef>
+</Defs>

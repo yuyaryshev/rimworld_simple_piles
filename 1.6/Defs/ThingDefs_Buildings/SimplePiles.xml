@@ -12,7 +12,7 @@
     <uiIconPath>SimplePiles/SmallLogPile/SmallLogPile_UI</uiIconPath>
     <uiIconScale>1.5</uiIconScale>
     <graphicData>
-      <texPath>SimplePiles/SmallLogPile/SmallLogPile_0</texPath>
+      <texPath>SimplePiles/SmallLogPile/SmallLogPile_H2</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1.5,1.5)</drawSize>
       <drawRotated>false</drawRotated>

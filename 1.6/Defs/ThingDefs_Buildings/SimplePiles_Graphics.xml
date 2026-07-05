@@ -18,14 +18,10 @@
     <graphics>
       <li>
         <graphicData>
-          <texPath>SimplePiles/SmallLogPile/SmallLogPile_H2</texPath>
-          <graphicClass>Graphic_Multi</graphicClass>
+          <texPath>SimplePiles/SmallLogPile/SmallPile</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
           <drawSize>(1.5,1.5)</drawSize>
           <drawRotated>false</drawRotated>
-          <drawOffsetNorth>0,0,0.125</drawOffsetNorth>
-          <drawOffsetSouth>0,0,-0.125</drawOffsetSouth>
-          <drawOffsetEast>0,0.125,0</drawOffsetEast>
-          <drawOffsetWest>0,-0.125,0</drawOffsetWest>
         </graphicData>
       </li>
     </graphics>

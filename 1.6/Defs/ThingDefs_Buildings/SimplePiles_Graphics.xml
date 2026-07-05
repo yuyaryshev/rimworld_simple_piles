@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AdaptiveStorage.GraphicsDef>
+    <defName>SimplePiles_Graphics</defName>
+    <targetDefs>
+      <li>SimplePile_Wood</li>
+      <li>SimplePile_Steel</li>
+      <li>SimplePile_Plasteel</li>
+      <li>SimplePile_StoneBlocks</li>
+      <li>SimplePile_Components</li>
+      <li>SimplePile_AdvancedComponents</li>
+      <li>SimplePile_Gold</li>
+      <li>SimplePile_Silver</li>
+      <li>SimplePile_Medicine</li>
+    </targetDefs>
+    <showContainedItems>false</showContainedItems>
+    <useDominantContentColor>true</useDominantContentColor>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>SimplePiles/SmallLogPile/SmallLogPile_0</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(1.5,1.5)</drawSize>
+          <drawRotated>false</drawRotated>
+          <drawOffsetNorth>0,0,0.125</drawOffsetNorth>
+          <drawOffsetSouth>0,0,-0.125</drawOffsetSouth>
+          <drawOffsetEast>0,0.125,0</drawOffsetEast>
+          <drawOffsetWest>0,-0.125,0</drawOffsetWest>
+        </graphicData>
+      </li>
+      <li>
+        <graphicData>
+          <texPath>SimplePiles/SmallLogPile/SmallLogPile_F</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(1.5,1.5)</drawSize>
+          <drawRotated>false</drawRotated>
+          <drawOffsetNorth>0,0,0.125</drawOffsetNorth>
+          <drawOffsetSouth>0,0,-0.125</drawOffsetSouth>
+          <drawOffsetEast>0,0.125,0</drawOffsetEast>
+          <drawOffsetWest>0,-0.125,0</drawOffsetWest>
+        </graphicData>
+        <minimumStackCount>1</minimumStackCount>
+      </li>
+    </graphics>
+    <randomSelectionWeight>1</randomSelectionWeight>
+  </AdaptiveStorage.GraphicsDef>
+</Defs>

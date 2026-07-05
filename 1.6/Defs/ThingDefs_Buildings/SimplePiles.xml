@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef Name="SimplePileBase" ParentName="FurnitureBase" Abstract="True">
-    <thingClass>Building_Storage</thingClass>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
+  <DesignatorDropdownGroupDef>
+    <defName>SimplePiles_ResourcePile</defName>
+  </DesignatorDropdownGroupDef>
+
+  <ThingDef Name="SimplePileBase" ParentName="AdaptiveStorageBase" Abstract="True">
     <fillPercent>0.2</fillPercent>
-    <pathCost>15</pathCost>
     <size>(1,1)</size>
     <rotatable>true</rotatable>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <designationCategory>Furniture</designationCategory>
+    <designatorDropdown>SimplePiles_ResourcePile</designatorDropdown>
     <uiIconPath>SimplePiles/SmallLogPile/SmallLogPile_UI</uiIconPath>
     <uiIconScale>1.5</uiIconScale>
     <graphicData>
@@ -22,12 +21,10 @@
       <drawOffsetEast>0,0.125,0</drawOffsetEast>
       <drawOffsetWest>0,-0.125,0</drawOffsetWest>
     </graphicData>
-    <costList>
-      <WoodLog>1</WoodLog>
-    </costList>
+    <costStuffCount>0</costStuffCount>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
-      <WorkToBuild>1</WorkToBuild>
+      <WorkToBuild>0</WorkToBuild>
       <Beauty>0</Beauty>
       <Flammability>1.0</Flammability>
       <Mass>1</Mass>
@@ -36,7 +33,6 @@
       <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
       <maxItemsInCell>1</maxItemsInCell>
-      <blueprintClass>Blueprint_Storage</blueprintClass>
       <relatedBuildCommands>
         <li>SimplePile_Wood</li>
         <li>SimplePile_Steel</li>
@@ -49,12 +45,10 @@
         <li>SimplePile_Medicine</li>
       </relatedBuildCommands>
     </building>
-    <inspectorTabs>
-      <li>ITab_Storage</li>
-    </inspectorTabs>
-    <surfaceType>Item</surfaceType>
-    <canOverlapZones>false</canOverlapZones>
     <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="SimplePileBase">

@@ -2,7 +2,9 @@
 
 Small one-stack resource pile spots for RimWorld 1.6.
 
-Each pile costs 1 wood to build and accepts only its configured resource. This is intentionally implemented as separate vanilla storage buildings instead of a stuff-based building: RimWorld stuff selection normally consumes the selected stuff, while these spots are meant to be cheap markers that store the selected resource.
+Each pile accepts only its configured resource. The pile variants are grouped under one build dropdown and use Adaptive Storage Framework's storage category/instant placement behavior.
+
+This is intentionally implemented as separate resource-specific pile spots instead of a true stuff-based building: RimWorld stuff selection normally consumes the selected stuff, while these spots are meant to select the stored resource.
 
 Initial pile types:
 

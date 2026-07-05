@@ -7,6 +7,16 @@
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>adaptive.storage.framework</packageId>
+      <displayName>Adaptive Storage Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3033901359</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>adaptive.storage.framework</li>
+  </loadAfter>
   <description>Small one-stack resource pile spots. Each spot is built from a tiny amount of wood and accepts only one configured resource type.
 
 Uses SmallLogPile texture references copied from Adaptive Primitive Storage / Primitive Storage.</description>
